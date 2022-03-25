@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39719A162A81897C508459B0098E29BE /* CLTypingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A42BC899FD84319FB00575D48163EE6 /* CLTypingLabel-dummy.m */; };
+		4C44C8B9C2D123BF9695F6AB0CA36D9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4D2FC53B4837E9FED51200C321D9420C /* CLTypingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD44B03F013CF271605C5A4CB123933D /* CLTypingLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		624CA7E9BBE011EE763C1E8A262CFEFD /* Pods-BestChatLAN-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70859F644D4D0073CDD0658E909BD0CA /* Pods-BestChatLAN-dummy.m */; };
+		A737084E359F7628B0EA7C3D380184C6 /* Pods-BestChatLAN-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E60E71F554E1524B6F9545D98B1A623 /* Pods-BestChatLAN-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5843936956336D732E73AFA5EEAB889 /* CLTypingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C960689C9B0938D0A50949B30985509 /* CLTypingLabel.swift */; };
+		E2A01F0F5504F2192BFDDFB1D9898512 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2439D0772DFA2B7DDE81BE5D769C14A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F8A929BDB6E633BE35459804508532F;
+			remoteInfo = CLTypingLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07672300080DB94A3A7E9D87B9A9297F /* CLTypingLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLTypingLabel.release.xcconfig; sourceTree = "<group>"; };
+		1E60E71F554E1524B6F9545D98B1A623 /* Pods-BestChatLAN-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BestChatLAN-umbrella.h"; sourceTree = "<group>"; };
+		2ED4986C115A00127EC88E94FE4233F2 /* Pods-BestChatLAN-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BestChatLAN-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3499DE220BE01D35A6C807E958B77B6C /* Pods-BestChatLAN */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BestChatLAN"; path = Pods_BestChatLAN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A3BC8A888C9E548B172FC892E976680 /* Pods-BestChatLAN.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BestChatLAN.modulemap"; sourceTree = "<group>"; };
+		6F04D5BBC2D4C048A3B41986E172FAD8 /* Pods-BestChatLAN-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BestChatLAN-acknowledgements.plist"; sourceTree = "<group>"; };
+		70859F644D4D0073CDD0658E909BD0CA /* Pods-BestChatLAN-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BestChatLAN-dummy.m"; sourceTree = "<group>"; };
+		7213CC7A4465CE70553B4BC612899269 /* Pods-BestChatLAN-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BestChatLAN-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73C45AF65241BC2BB093AAA6561CA245 /* Pods-BestChatLAN-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BestChatLAN-frameworks.sh"; sourceTree = "<group>"; };
+		7A42BC899FD84319FB00575D48163EE6 /* CLTypingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CLTypingLabel-dummy.m"; sourceTree = "<group>"; };
+		7C960689C9B0938D0A50949B30985509 /* CLTypingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CLTypingLabel.swift; path = Pod/Classes/CLTypingLabel.swift; sourceTree = "<group>"; };
+		81EF2928B5AE30D287990BF6C3B3562F /* CLTypingLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLTypingLabel-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A14B3C788299AC37E17C0EEFE998EE16 /* CLTypingLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLTypingLabel.debug.xcconfig; sourceTree = "<group>"; };
+		AD44B03F013CF271605C5A4CB123933D /* CLTypingLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLTypingLabel-umbrella.h"; sourceTree = "<group>"; };
+		B0542A5624B5DE02B2C5350C79F8A878 /* CLTypingLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CLTypingLabel-Info.plist"; sourceTree = "<group>"; };
+		B08BE938FE263ADA0200458C55905D1E /* Pods-BestChatLAN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BestChatLAN.debug.xcconfig"; sourceTree = "<group>"; };
+		BBD62EDA51D5284EF5FB0AE6BD8E562A /* Pods-BestChatLAN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BestChatLAN.release.xcconfig"; sourceTree = "<group>"; };
+		CE8765B3053874E73AFDC78B5D6B4396 /* CLTypingLabel */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CLTypingLabel; path = CLTypingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5C7209DEA018C4293E1EAE3D31B95A0 /* CLTypingLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CLTypingLabel.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06244830B7849BE50A46BE3FE2B6D3E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C44C8B9C2D123BF9695F6AB0CA36D9F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48848003628701101494E561F2825532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2A01F0F5504F2192BFDDFB1D9898512 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30575D65EEC235E34DBBA41F7A7D73E2 /* Pods-BestChatLAN */ = {
+			isa = PBXGroup;
+			children = (
+				3A3BC8A888C9E548B172FC892E976680 /* Pods-BestChatLAN.modulemap */,
+				2ED4986C115A00127EC88E94FE4233F2 /* Pods-BestChatLAN-acknowledgements.markdown */,
+				6F04D5BBC2D4C048A3B41986E172FAD8 /* Pods-BestChatLAN-acknowledgements.plist */,
+				70859F644D4D0073CDD0658E909BD0CA /* Pods-BestChatLAN-dummy.m */,
+				73C45AF65241BC2BB093AAA6561CA245 /* Pods-BestChatLAN-frameworks.sh */,
+				7213CC7A4465CE70553B4BC612899269 /* Pods-BestChatLAN-Info.plist */,
+				1E60E71F554E1524B6F9545D98B1A623 /* Pods-BestChatLAN-umbrella.h */,
+				B08BE938FE263ADA0200458C55905D1E /* Pods-BestChatLAN.debug.xcconfig */,
+				BBD62EDA51D5284EF5FB0AE6BD8E562A /* Pods-BestChatLAN.release.xcconfig */,
+			);
+			name = "Pods-BestChatLAN";
+			path = "Target Support Files/Pods-BestChatLAN";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A1143E9F1DD082E176E305056FF782A8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				30575D65EEC235E34DBBA41F7A7D73E2 /* Pods-BestChatLAN */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AFC3D31ED54F53BF4A8BC448129532ED /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5C7209DEA018C4293E1EAE3D31B95A0 /* CLTypingLabel.modulemap */,
+				7A42BC899FD84319FB00575D48163EE6 /* CLTypingLabel-dummy.m */,
+				B0542A5624B5DE02B2C5350C79F8A878 /* CLTypingLabel-Info.plist */,
+				81EF2928B5AE30D287990BF6C3B3562F /* CLTypingLabel-prefix.pch */,
+				AD44B03F013CF271605C5A4CB123933D /* CLTypingLabel-umbrella.h */,
+				A14B3C788299AC37E17C0EEFE998EE16 /* CLTypingLabel.debug.xcconfig */,
+				07672300080DB94A3A7E9D87B9A9297F /* CLTypingLabel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CLTypingLabel";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E5728BA1B8CEEB3143CA35A236294C2C /* Pods */,
+				ED5546A517C80FB2E617A102127F4C26 /* Products */,
+				A1143E9F1DD082E176E305056FF782A8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5728BA1B8CEEB3143CA35A236294C2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F50BBCA84C4709AF15E302F2BDC0566D /* CLTypingLabel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED5546A517C80FB2E617A102127F4C26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE8765B3053874E73AFDC78B5D6B4396 /* CLTypingLabel */,
+				3499DE220BE01D35A6C807E958B77B6C /* Pods-BestChatLAN */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F50BBCA84C4709AF15E302F2BDC0566D /* CLTypingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				7C960689C9B0938D0A50949B30985509 /* CLTypingLabel.swift */,
+				AFC3D31ED54F53BF4A8BC448129532ED /* Support Files */,
+			);
+			name = CLTypingLabel;
+			path = CLTypingLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		471E3D078CCB6A3974046AB33B5138B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A737084E359F7628B0EA7C3D380184C6 /* Pods-BestChatLAN-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D275CA89F5DD8CD924CDCE265C7B54A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D2FC53B4837E9FED51200C321D9420C /* CLTypingLabel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6F8A929BDB6E633BE35459804508532F /* CLTypingLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DE7FF6FC7102AF47081FF2B49E8E1E9 /* Build configuration list for PBXNativeTarget "CLTypingLabel" */;
+			buildPhases = (
+				D275CA89F5DD8CD924CDCE265C7B54A5 /* Headers */,
+				131C50C6A0C4B4B7AF5E8EA504C8F4A5 /* Sources */,
+				48848003628701101494E561F2825532 /* Frameworks */,
+				84A72A200C69980E5EBD1C2537106D4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CLTypingLabel;
+			productName = CLTypingLabel;
+			productReference = CE8765B3053874E73AFDC78B5D6B4396 /* CLTypingLabel */;
+			productType = "com.apple.product-type.framework";
+		};
+		9745356AD71732CD781D1ECDE3623CE8 /* Pods-BestChatLAN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16D56162EF4F4E914AF1DD39998C90E1 /* Build configuration list for PBXNativeTarget "Pods-BestChatLAN" */;
+			buildPhases = (
+				471E3D078CCB6A3974046AB33B5138B4 /* Headers */,
+				D7FB454521CC46D32D0FE08278A9DF20 /* Sources */,
+				06244830B7849BE50A46BE3FE2B6D3E1 /* Frameworks */,
+				A8CD668C2ED4D40EBA425B089F1E1E16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9A05A49C21C67535B5845AFF244FB49 /* PBXTargetDependency */,
+			);
+			name = "Pods-BestChatLAN";
+			productName = Pods_BestChatLAN;
+			productReference = 3499DE220BE01D35A6C807E958B77B6C /* Pods-BestChatLAN */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = ED5546A517C80FB2E617A102127F4C26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F8A929BDB6E633BE35459804508532F /* CLTypingLabel */,
+				9745356AD71732CD781D1ECDE3623CE8 /* Pods-BestChatLAN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84A72A200C69980E5EBD1C2537106D4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8CD668C2ED4D40EBA425B089F1E1E16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		131C50C6A0C4B4B7AF5E8EA504C8F4A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5843936956336D732E73AFA5EEAB889 /* CLTypingLabel.swift in Sources */,
+				39719A162A81897C508459B0098E29BE /* CLTypingLabel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7FB454521CC46D32D0FE08278A9DF20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624CA7E9BBE011EE763C1E8A262CFEFD /* Pods-BestChatLAN-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9A05A49C21C67535B5845AFF244FB49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CLTypingLabel;
+			target = 6F8A929BDB6E633BE35459804508532F /* CLTypingLabel */;
+			targetProxy = 2439D0772DFA2B7DDE81BE5D769C14A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2CB12D76B062AAD4C6C1AEE8EA4194EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B08BE938FE263ADA0200458C55905D1E /* Pods-BestChatLAN.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BestChatLAN/Pods-BestChatLAN-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BestChatLAN/Pods-BestChatLAN.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4214E6946993DF02ED98D89047C64016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		469832D5AA477AA185990354FCD42610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A14B3C788299AC37E17C0EEFE998EE16 /* CLTypingLabel.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CLTypingLabel/CLTypingLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CLTypingLabel/CLTypingLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CLTypingLabel/CLTypingLabel.modulemap";
+				PRODUCT_MODULE_NAME = CLTypingLabel;
+				PRODUCT_NAME = CLTypingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		546B9A47CDAEAD3E228D4297F75152F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBD62EDA51D5284EF5FB0AE6BD8E562A /* Pods-BestChatLAN.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BestChatLAN/Pods-BestChatLAN-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BestChatLAN/Pods-BestChatLAN.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5FC3A7A0CD248AF4623E3220F55CC25B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07672300080DB94A3A7E9D87B9A9297F /* CLTypingLabel.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CLTypingLabel/CLTypingLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CLTypingLabel/CLTypingLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CLTypingLabel/CLTypingLabel.modulemap";
+				PRODUCT_MODULE_NAME = CLTypingLabel;
+				PRODUCT_NAME = CLTypingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD85FD90473CFBE797E4264E7BBC70AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16D56162EF4F4E914AF1DD39998C90E1 /* Build configuration list for PBXNativeTarget "Pods-BestChatLAN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CB12D76B062AAD4C6C1AEE8EA4194EB /* Debug */,
+				546B9A47CDAEAD3E228D4297F75152F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4214E6946993DF02ED98D89047C64016 /* Debug */,
+				CD85FD90473CFBE797E4264E7BBC70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DE7FF6FC7102AF47081FF2B49E8E1E9 /* Build configuration list for PBXNativeTarget "CLTypingLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				469832D5AA477AA185990354FCD42610 /* Debug */,
+				5FC3A7A0CD248AF4623E3220F55CC25B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
