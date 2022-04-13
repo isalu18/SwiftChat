@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>645994347712-l6gjlsl3ltqdsu2h5t0nqeu0epphsseg.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.645994347712-l6gjlsl3ltqdsu2h5t0nqeu0epphsseg</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC9oPVebQ5MrqqGrRqflTUwnlAV045JmT8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>645994347712</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.isaacsanchez.BestChatLAN</string>
+	<key>PROJECT_ID</key>
+	<string>bestchatlan</string>
+	<key>STORAGE_BUCKET</key>
+	<string>bestchatlan.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:645994347712:ios:01969d819c073b1522c125</string>
+</dict>
+</plist>

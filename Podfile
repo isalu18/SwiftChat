@@ -8,5 +8,15 @@ target 'BestChatLAN' do
   # Pods for BestChatLAN
   
   pod 'CLTypingLabel'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+  
+  target 'BestChatLANTests' do
+      inherit! :search_paths
+      pod 'Firebase/Auth'
+      pod 'Firebase/Firestore'
+    end
+
+
 
 end
