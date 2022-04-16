@@ -17,6 +17,7 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rocket-chat.png" translatesAutoresizingMaskIntoConstraints="NO" id="AHD-uc-Mrh">
                                 <rect key="frame" x="143" y="384" width="128" height="128"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="128" id="XOQ-Qw-BSw"/>
                                     <constraint firstAttribute="height" constant="128" id="t9d-C4-H4i"/>

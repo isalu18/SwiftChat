@@ -15,7 +15,8 @@
 		58072D5527E0FE040098A576 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58072D5327E0FE040098A576 /* LaunchScreen.storyboard */; };
 		5836E77F27F29B39000ED38E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5836E77E27F29B39000ED38E /* GoogleService-Info.plist */; };
 		5836E79527F29F62000ED38E /* BestChatLANTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5836E79427F29F62000ED38E /* BestChatLANTests.swift */; };
-		585222DB27E436CB0052600D /* rocket-chat.png in Resources */ = {isa = PBXBuildFile; fileRef = 585222DA27E436CB0052600D /* rocket-chat.png */; };
+		58535F95280B4C5B00981AB9 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 58535F94280B4C5B00981AB9 /* IQKeyboardManagerSwift */; };
+		58535FA3280B526C00981AB9 /* rocket-chat.png in Resources */ = {isa = PBXBuildFile; fileRef = 58535FA2280B526C00981AB9 /* rocket-chat.png */; };
 		5896DFE2280522D5004C10E6 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5896DFE1280522D5004C10E6 /* Message.swift */; };
 		5896DFE5280528B3004C10E6 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5896DFE3280528B3004C10E6 /* MessageCell.swift */; };
 		5896DFE6280528B3004C10E6 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5896DFE4280528B3004C10E6 /* MessageCell.xib */; };
@@ -54,7 +55,7 @@
 		5836E78B27F29F2E000ED38E /* BestChatLANTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BestChatLANTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5836E79427F29F62000ED38E /* BestChatLANTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestChatLANTests.swift; sourceTree = "<group>"; };
 		5836E79627F29F80000ED38E /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		585222DA27E436CB0052600D /* rocket-chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rocket-chat.png"; sourceTree = "<group>"; };
+		58535FA2280B526C00981AB9 /* rocket-chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rocket-chat.png"; sourceTree = "<group>"; };
 		5896DFE1280522D5004C10E6 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		5896DFE3280528B3004C10E6 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		5896DFE4280528B3004C10E6 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
@@ -73,6 +74,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C697A3666D3068E8AD13D53 /* Pods_BestChatLAN.framework in Frameworks */,
+				58535F95280B4C5B00981AB9 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,7 +131,7 @@
 				58ADA2B827ED3B1100815534 /* Views */,
 				58ADA2B627ED3B0000815534 /* Controllers */,
 				58072D5127E0FE040098A576 /* Assets.xcassets */,
-				585222DA27E436CB0052600D /* rocket-chat.png */,
+				58535FA2280B526C00981AB9 /* rocket-chat.png */,
 				58072D5627E0FE040098A576 /* Info.plist */,
 				5836E77E27F29B39000ED38E /* GoogleService-Info.plist */,
 			);
@@ -203,6 +205,9 @@
 			dependencies = (
 			);
 			name = BestChatLAN;
+			packageProductDependencies = (
+				58535F94280B4C5B00981AB9 /* IQKeyboardManagerSwift */,
+			);
 			productName = BestChatLAN;
 			productReference = 58072D4527E0FE030098A576 /* BestChatLAN.app */;
 			productType = "com.apple.product-type.application";
@@ -256,6 +261,9 @@
 				Base,
 			);
 			mainGroup = 58072D3C27E0FE030098A576;
+			packageReferences = (
+				58535F93280B4C5B00981AB9 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = 58072D4627E0FE030098A576 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -274,9 +282,9 @@
 				58072D5527E0FE040098A576 /* LaunchScreen.storyboard in Resources */,
 				5896DFE6280528B3004C10E6 /* MessageCell.xib in Resources */,
 				58072D5227E0FE040098A576 /* Assets.xcassets in Resources */,
+				58535FA3280B526C00981AB9 /* rocket-chat.png in Resources */,
 				5836E77F27F29B39000ED38E /* GoogleService-Info.plist in Resources */,
 				58072D5027E0FE030098A576 /* Main.storyboard in Resources */,
-				585222DB27E436CB0052600D /* rocket-chat.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -680,6 +688,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		58535F93280B4C5B00981AB9 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = exactVersion;
+				version = 6.5.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		58535F94280B4C5B00981AB9 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 58535F93280B4C5B00981AB9 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 58072D3D27E0FE030098A576 /* Project object */;
 }
