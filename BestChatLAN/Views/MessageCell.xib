@@ -19,11 +19,18 @@
                     <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="d3G-2V-Yse">
                         <rect key="frame" x="10" y="10" width="320" height="71"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="YouAvatar" translatesAutoresizingMaskIntoConstraints="NO" id="37t-Hp-rV0">
+                                <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="5Kz-db-pkQ"/>
+                                    <constraint firstAttribute="width" constant="40" id="YtZ-47-KBg"/>
+                                </constraints>
+                            </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Rr-rF-cjM">
-                                <rect key="frame" x="0.0" y="0.0" width="260" height="61"/>
+                                <rect key="frame" x="60" y="0.0" width="200" height="61"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="dawdawdawdadawdadadwadadaw" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FJy-NF-hGE">
-                                        <rect key="frame" x="10" y="10" width="240" height="41"/>
+                                        <rect key="frame" x="10" y="10" width="180" height="41"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -37,11 +44,11 @@
                                     <constraint firstItem="FJy-NF-hGE" firstAttribute="top" secondItem="5Rr-rF-cjM" secondAttribute="top" constant="10" id="vSq-O2-CvS"/>
                                 </constraints>
                             </view>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MeAvatar" translatesAutoresizingMaskIntoConstraints="NO" id="37t-Hp-rV0">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MeAvatar" translatesAutoresizingMaskIntoConstraints="NO" id="E6k-5X-3k2">
                                 <rect key="frame" x="280" y="0.0" width="40" height="40"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="5Kz-db-pkQ"/>
-                                    <constraint firstAttribute="width" constant="40" id="YtZ-47-KBg"/>
+                                    <constraint firstAttribute="height" constant="40" id="CoN-CC-1Az"/>
+                                    <constraint firstAttribute="width" constant="40" id="hFA-w8-flv"/>
                                 </constraints>
                             </imageView>
                         </subviews>
@@ -57,13 +64,15 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="label" destination="FJy-NF-hGE" id="nB0-zs-zfA"/>
+                <outlet property="leftImageView" destination="37t-Hp-rV0" id="3wX-Jh-Fpf"/>
                 <outlet property="messageBubble" destination="5Rr-rF-cjM" id="tHJ-ST-gCw"/>
-                <outlet property="rightImageView" destination="37t-Hp-rV0" id="WWB-g3-Sy0"/>
+                <outlet property="rightImageView" destination="E6k-5X-3k2" id="fwH-xy-3GM"/>
             </connections>
             <point key="canvasLocation" x="152.17391304347828" y="110.82589285714285"/>
         </tableViewCell>
     </objects>
     <resources>
         <image name="MeAvatar" width="36" height="36"/>
+        <image name="YouAvatar" width="36" height="36"/>
     </resources>
 </document>

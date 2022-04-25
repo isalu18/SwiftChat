@@ -28,6 +28,15 @@ class ChatViewController: UIViewController {
         
         loadMessages()
     }
+
+    @IBAction func sendPressed(_ sender: UIButton) {
+        if let messageBody = messageTextField.text, let messageSender = Auth.auth().currentUser?.email {
+            createMessage(body: messageBody, sender: messageSender)
+        }
+    }
+    @IBAction func logOutPressed(_ sender: UIBarButtonItem) {
+        logOutCurrentUser()
+    }
     
     func loadMessages() {
         
@@ -48,32 +57,15 @@ class ChatViewController: UIViewController {
                             
                             DispatchQueue.main.async {
                                 self.tableView.reloadData()
+                                
+                                let indexPath = IndexPath(row: self.messages.count - 1, section: 0)
+                                self.tableView.scrollToRow(at: indexPath, at: .top, animated: true)
                             }
                         }
                     }
                 }
             }
         }
-    }
-
-    @IBAction func sendPressed(_ sender: UIButton) {
-        if let messageBody = messageTextField.text, let messageSender = Auth.auth().currentUser?.email {
-            db.collection("messages").addDocument(data: [
-                "sender": messageSender,
-                "body": messageBody,
-                "time": Date().timeIntervalSince1970]) { (error) in
-                    if let e = error {
-                        print("There was an error saving data to firestore: \(e)")
-                    } else {
-                        print("Data saved succcessfully")
-                    }
-                }
-        }
-        
-        messageTextField.text = ""
-    }
-    @IBAction func logOutPressed(_ sender: UIBarButtonItem) {
-        logOutCurrentUser()
     }
     
     func logOutCurrentUser() {
@@ -87,6 +79,23 @@ class ChatViewController: UIViewController {
             print("Error signing out: %@", signOutError)
         }
     }
+    
+    func createMessage(body: String, sender: String) {
+        db.collection("messages").addDocument(data: [
+            "sender": sender,
+            "body": body,
+            "time": Date().timeIntervalSince1970]) { (error) in
+                if let e = error {
+                    print("There was an error saving data to firestore: \(e)")
+                } else {
+                    print("Data saved succcessfully")
+                    
+                    DispatchQueue.main.async {
+                        self.messageTextField.text = ""
+                    }
+                }
+            }
+    }
 }
 
 extension ChatViewController: UITableViewDataSource {
@@ -95,9 +104,21 @@ extension ChatViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "ReusableCell", for: indexPath) as! MessageCell
         
-        cell.label.text = messages[indexPath.row].body
+        let message = messages[indexPath.row]
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ReusableCell", for: indexPath) as! MessageCell
+        cell.label.text = message.body
+        
+        if message.sender == Auth.auth().currentUser?.email {
+            cell.leftImageView.isHidden = true
+            cell.rightImageView.isHidden = false
+            cell.messageBubble.backgroundColor = UIColor(named: "lightBlue")
+        } else {
+            cell.leftImageView.isHidden = false
+            cell.rightImageView.isHidden = true
+            cell.messageBubble.backgroundColor = UIColor(named: "lightPurple")
+        }
         
         return cell
     }

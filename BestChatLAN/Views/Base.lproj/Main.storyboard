@@ -146,7 +146,7 @@
             </objects>
             <point key="canvasLocation" x="2000.0000000000002" y="489.50892857142856"/>
         </scene>
-        <!--Chat View Controller-->
+        <!--🚀 BestChatLAN 🚀-->
         <scene sceneID="kvS-uq-7aB">
             <objects>
                 <viewController id="12e-WQ-6nj" customClass="ChatViewController" customModule="BestChatLAN" customModuleProvider="target" sceneMemberID="viewController">
@@ -208,7 +208,7 @@
                             <constraint firstItem="VvC-zm-U3F" firstAttribute="top" secondItem="zOb-mo-aGr" secondAttribute="bottom" id="yiY-Lg-prr"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="ppm-o2-Jq1">
+                    <navigationItem key="navigationItem" title="🚀 BestChatLAN 🚀" id="ppm-o2-Jq1">
                         <barButtonItem key="rightBarButtonItem" title="Log Out" id="O1D-Vm-g6R">
                             <connections>
                                 <action selector="logOutPressed:" destination="12e-WQ-6nj" id="9Y2-GX-aVB"/>
@@ -297,6 +297,10 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="uEC-b5-lmw">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <navigationBarAppearance key="scrollEdgeAppearance"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
